@@ -18,9 +18,13 @@ const Router = () => (
       <Route element={<GlobalLayout />}>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/ground' element={<Ground />} />
+        <Route path='/grounds/:id' element={<Ground />} />
         <Route path='/signup' element={<SignUp />} />
         <Route path='/admin' element={<Admin />} />
+<<<<<<< Updated upstream
+=======
+        <Route path='/pointCharge' element={<PointCharge />} />
+>>>>>>> Stashed changes
         <Route path='/myinfo' element={<MyPage />}>
           <Route path='' element={<UserInfoChange />} />
           <Route path='password' element={<PasswordChange />} />

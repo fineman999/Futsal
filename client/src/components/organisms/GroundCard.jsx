@@ -18,8 +18,13 @@ const GroundCard = ({ ground }) => {
       <GroundAddress>{`${address1}`}</GroundAddress>
       <GroundName>{groundName}</GroundName>
       <Wrapper>
+<<<<<<< Updated upstream
         <PaymentPoint>{paymentPoint}</PaymentPoint>
         <Link to={`detail/${_id}`}>
+=======
+        <PaymentPoint>{addCommas(paymentPoint)}P</PaymentPoint>
+        <Link to={`grounds/${_id}`}>
+>>>>>>> Stashed changes
           <ReservationButton type='button'>예약하기</ReservationButton>
         </Link>
       </Wrapper>
