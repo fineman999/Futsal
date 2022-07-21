@@ -9,11 +9,13 @@ import SignUp from '../pages/SignUp';
 import Admin from '../pages/Admin/Admin';
 import GlobalLayout from './GlobalLayout';
 import MyPage from '../pages/MyPage';
+import UserInformation from '../pages/UserInformation';
 import PasswordChange from '../pages/PasswordChange';
 import UserInfoChange from '../pages/UserInfoChange';
 import UnRegister from '../pages/UnRegister';
 import RentalManagement from '../pages/RentalManagement';
 import PointCharge from '../pages/PointCharge';
+import UserPointHistory from '../pages/UserPointHistory';
 
 const Router = () => (
   <BrowserRouter>
@@ -23,14 +25,15 @@ const Router = () => (
         <Route path='/login' element={<Login />} />
         <Route path='/grounds/:id' element={<Ground />} />
         <Route path='/pointCharge' element={<PointCharge />} />
-        <Route path='/pointChargeInfo' element={<PointChargeInfo />} />
         <Route path='/signup' element={<SignUp />} />
         <Route path='/admin' element={<Admin />} />
         <Route path='/myinfo' element={<MyPage />}>
-          <Route path='' element={<UserInfoChange />} />
+          <Route path='' element={<UserInformation />} />
+          <Route path='change' element={<UserInfoChange />} />
           <Route path='password' element={<PasswordChange />} />
-          <Route path='user' element={<UnRegister />} />
+          <Route path='withdrawal' element={<UnRegister />} />
           <Route path='rental' element={<RentalManagement />} />
+          <Route path='point' element={<UserPointHistory />} />
         </Route>
       </Route>
       <Route path='/oauth/callback/kakao' element={<KakaoRedirectHandler />} />
