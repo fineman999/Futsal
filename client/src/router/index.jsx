@@ -24,6 +24,7 @@ const Router = () => (
         <Route path='/pointCharge' element={<PointCharge />} />
         <Route path='/signup' element={<SignUp />} />
         <Route path='/admin' element={<Admin />} />
+        <Route path='/pointCharge' element={<PointCharge />} />
         <Route path='/myinfo' element={<MyPage />}>
           <Route path='' element={<UserInformation />} />
           <Route path='change' element={<UserInfoChange />} />

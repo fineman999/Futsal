@@ -44,6 +44,7 @@ const GroundTime = ({ info }) => {
     </>
   );
 };
+
 const TimeText = styled.h1`
   font-size: 20px;
   text-align: left;
