@@ -1,4 +1,4 @@
-# 풋닷컴
+# [풋닷컴](http://kdt-sw2-busan-team04.elicecoding.com/)
 
 ### 공을 차고 싶을 땐 간편하게 풋살예약닷컴에서 예약하세요 😉
 
@@ -24,6 +24,7 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js,react,styledcomponents" />
     <img width="50px" height="50px" src="https://cdn.discordapp.com/attachments/994130334604066837/996660977472905276/recoil_icon.png" />
+    <img width="50px" height="50px" src="/image/eslint.png" />
   </a>
 </p>
 
@@ -35,11 +36,12 @@
   </a>
 </p>
 
-# Common
+# Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=figma,vscode,gitlab" />
+    <img width="50px" height="50px" src="/image/swagger.png" />
   </a>
 </p>
 
@@ -151,7 +153,7 @@
 
 <br>
 
-### 1. 예약을 원하는 경기장을 선택하고, 해당 경기자으이 정보를 확인
+### 1. 예약을 원하는 경기장을 선택하고, 해당 경기장의 정보를 확인
 
 ### 2. 날짜 별로 예약 상태와 시간을 선택해서 경기장 예약을 합니다.
 
